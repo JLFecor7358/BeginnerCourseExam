@@ -6,6 +6,11 @@
 # .NET Core build folders
 bin/
 obj/
+
+# ignore a file type
+*.suo
+*.testlog
+*.manifest
 # Common node modules locations
 /node_modules
 /wwwroot/node_modules
